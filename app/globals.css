@@ -31,7 +31,7 @@ body {
 }
 
 .svg-map__location {
-  fill: white;
+  fill: white !important;
 }
 
 #it,
@@ -57,5 +57,5 @@ body {
 }
 
 .svg-map__location:hover {
-  fill: white;
+  fill: white !important;
 }
