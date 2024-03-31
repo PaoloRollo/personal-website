@@ -43,7 +43,7 @@ body {
 #tr,
 #kr,
 #cz {
-  fill: lightgreen;
+  fill: lightgreen !important;
 }
 
 #de,
@@ -53,7 +53,7 @@ body {
 #hr,
 #dr,
 #ch {
-  fill: aquamarine;
+  fill: aquamarine !important;
 }
 
 .svg-map__location:hover {
