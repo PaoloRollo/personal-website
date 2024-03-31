@@ -2,7 +2,7 @@
 
 import { Button, Image, cn } from "@nextui-org/react";
 import { motion } from "framer-motion";
-import { GithubIcon, TwitterIcon } from "lucide-react";
+import { GithubIcon, MapIcon, TwitterIcon } from "lucide-react";
 import { Source_Code_Pro } from "next/font/google";
 import Link from "next/link";
 
@@ -62,21 +62,17 @@ export default function LandingPageContent() {
         transition={{ duration: 1, delay: 2 }}
         className="flex items-center space-x-4 mt-8"
       >
-        <Button
-          isIconOnly
-          variant="faded"
-          as={Link}
-          href="https://github.com/PaoloRollo"
-        >
-          <GithubIcon />
+        <Button variant="faded" as={Link} href="/map">
+          <MapIcon />
+          <span className="hidden md:block">Map</span>
         </Button>
-        <Button
-          isIconOnly
-          variant="faded"
-          as={Link}
-          href="https://twitter.com/orbuloeth"
-        >
+        <Button variant="faded" as={Link} href="https://github.com/PaoloRollo">
+          <GithubIcon />
+          <span className="hidden md:block">Github</span>
+        </Button>
+        <Button variant="faded" as={Link} href="https://twitter.com/orbuloeth">
           <TwitterIcon />
+          <span className="hidden md:block">Twitter</span>
         </Button>
       </motion.div>
     </section>

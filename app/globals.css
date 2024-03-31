@@ -25,3 +25,37 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.svg-map {
+  background-color: black !important;
+}
+
+.svg-map__location {
+  fill: white;
+}
+
+#it,
+#es,
+#fr,
+#pt,
+#gb,
+#us,
+#tr,
+#kr,
+#cz {
+  fill: lightgreen;
+}
+
+#de,
+#nl,
+#at,
+#si,
+#hr,
+#dr,
+#ch {
+  fill: aquamarine;
+}
+
+.svg-map__location:hover {
+  fill: white;
+}
