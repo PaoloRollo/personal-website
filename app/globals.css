@@ -42,7 +42,9 @@ body {
 #us,
 #tr,
 #kr,
-#cz {
+#cz,
+#be,
+#pl {
   fill: lightgreen !important;
 }
 
@@ -52,7 +54,8 @@ body {
 #si,
 #hr,
 #dr,
-#ch {
+#ch,
+#hu {
   fill: aquamarine !important;
 }
 
