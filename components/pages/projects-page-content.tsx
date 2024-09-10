@@ -130,6 +130,22 @@ const projects: Project[] = [
     logo: "https://github.com/PaoloRollo/ethlogspy/raw/main/ethlogspy.png",
     link: "https://github.com/PaoloRollo/ethlogspy",
   },
+  {
+    name: "Honeypot Sniper",
+    type: "open source",
+    description:
+      "A simple Ethereum ERC-20 honeypot sniper on UniswapV2, UniswapV3 and Sushiswap.",
+    logo: "/logos/honeypot.png",
+    link: "https://github.com/PaoloRollo/honeypot-sniper",
+  },
+  {
+    name: "providers-wtf",
+    type: "open source",
+    description:
+      "A library to switch between viem and ethers providers easily.",
+    logo: "/logos/providers-wtf.png",
+    link: "https://github.com/PaoloRollo/providers-wtf",
+  },
 ];
 
 export default function ProjectsPageContent() {
