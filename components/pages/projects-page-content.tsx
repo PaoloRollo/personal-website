@@ -37,12 +37,27 @@ const projects: Project[] = [
     link: "https://builders.garden",
   },
   {
-    name: "EthLogSpy",
-    type: "open source",
+    name: "Flux",
+    type: "ETHWarsaw",
+    description: "Crypto-friendly checkout infrastructure for every business.",
+    logo: "/logos/flux.webp",
+    link: "https://devfolio.co/projects/flux-f5d0",
+  },
+  {
+    name: "EVM Actions",
+    type: "ETHGlobal Brussels",
     description:
-      "Reverse proxy for Ethereum nodes that stores logs information for a faster retrieval.",
-    logo: "https://github.com/PaoloRollo/ethlogspy/raw/main/ethlogspy.png",
-    link: "https://github.com/PaoloRollo/ethlogspy",
+      "A standard to perform web3 interactions within any (web2) website such as social networks.",
+    logo: "/logos/zap.png",
+    link: "https://evm-actions.builders.garden/starter-kit",
+  },
+  {
+    name: "Agent Smith",
+    type: "ETHSeoul",
+    description:
+      "Enter the NEAR matrix with Agent Smith, the multi-chain AI agent.",
+    logo: "/logos/agent-smith.webp",
+    link: "https://devfolio.co/projects/agent-smith-6ef3",
   },
   {
     name: "Fluidpay",
@@ -84,6 +99,14 @@ const projects: Project[] = [
     link: "https://threelingo.vercel.app/",
   },
   {
+    name: "GitGate",
+    type: "ETHLisbon",
+    description:
+      "A web app allowing repository owners to setup token-gated access controls to GitHub repositories.",
+    logo: "/logos/gitgate.png",
+    link: "https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9sjt5s53583760118v1r1jdup/idea",
+  },
+  {
     name: "urbe.eth",
     type: "community",
     description:
@@ -98,6 +121,14 @@ const projects: Project[] = [
       "The 1st web3 hackathon in Italy, on governance and privacy topics",
     logo: "/logos/ethrome.webp",
     link: "https://ethrome.org",
+  },
+  {
+    name: "EthLogSpy",
+    type: "open source",
+    description:
+      "Reverse proxy for Ethereum nodes that stores logs information for a faster retrieval.",
+    logo: "https://github.com/PaoloRollo/ethlogspy/raw/main/ethlogspy.png",
+    link: "https://github.com/PaoloRollo/ethlogspy",
   },
 ];
 
